@@ -1,0 +1,77 @@
+baseURL: "https://jushoumin.github.io"
+languageCode: "zh-CN"
+title: "jushoumin"
+enableRobotsTXT: true
+titleCaseStyle: "firstupper"
+copyright: "jushoumin"
+theme: "hugo-theme-til"
+
+outputs:
+  home:
+    - "html"
+  section:
+    - "html"
+    - "rss"
+    - "json"
+  page:
+    - "html"
+
+frontmatter:
+  lastmod:
+    - "lastmod"
+    - "modified"
+
+menu:
+  main:
+    - identifier: "posts"
+      name: "Posts"
+      pageRef: "/posts"
+      weight: 20
+    - identifier: "notes"
+      name: "Notes"
+      pageRef: "/notes"
+      weight: 30
+    - identifier: "graph"
+      name: "Graph"
+      pageRef: "/graph"
+      weight: 40
+
+markup:
+  highlight:
+    noClasses: false
+    style: "tokyonight-night"
+  goldmark:
+    parser:
+      attribute:
+        block: true
+
+params:
+  description: "对计算机视觉、多传感器融合、机器人、自动驾驶感兴趣。"
+  author:
+    name: "jushoumin"
+  footer:
+    creativeCommonsLicense: "by_sa"
+  robotstxt:
+    blockCC: true
+    blockAI: true
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+  instagram:
+    disabled: false
+    simple: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true

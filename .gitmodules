@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-til"]
+	path = themes/hugo-theme-til
+	url = https://github.com/jushoumin/hugo-theme-til.git
