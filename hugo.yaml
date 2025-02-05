@@ -54,6 +54,8 @@ params:
   robotstxt:
     blockCC: true
     blockAI: true
+  footer:
+    showCreativeCommonsIcons: false
 
 privacy:
   vimeo:
